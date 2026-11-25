@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header id="header">
+            <img src="assets/logo.png" alt = "BiteBox" width="250">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#specialities">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+    <h2>Menu page</h2>
+    <hr>
+    <img src="assets/ai-generated-pasta.jpg" alt = Pizza
+    height="180"
+    width="250">
+    <h3>Cheesy veg pizza</h3>
+    <p>Loaded with veggies and cheesse to put a smile on your face</p>
+    <img src="assets/pngtree-burger-with-sauce-fresh-png-image_15280636.webp" alt = Burger
+    height="180"
+    width="250">
+    <h3>Burger</h3>
+    <p>Filled with patty sauces and veges to be delicious</p>
+    <img src="assets/ai-generated-pasta.jpg" alt = Pasta
+    height="180"
+    width="250">
+    <h3>Pasta</h3>
+    <p>Loaded with pasta veges and available in different flavors</p>
+    <hr>
+    <table border="1" cellpadding="10" cellspacing="10">
+        <caption>Bitebox Menu</caption>
+        <tr>
+            <th>Category</th>
+            <th>Food item</th>
+            <th>Price</th>
+            <th>Availability</th>
+        </tr>
+        
+        <tr>
+            <td rowspan="3">Pizza</td>
+            <td>Veg pizza</td>
+            <td>300</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Cheese Pizza</td>
+            <td>500</td>
+            <td>Available</td>
+        </tr>
+        
+        <tr>
+            <td>Chicken Pizza</td>
+            <td>500</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>    
+            <td rowspan="3">Burger</td>
+            <td>Classic burger</td>
+            <td>250</td>
+            <td>Availability</td>
+        </tr>
+
+        <tr>
+            <td>Chicken Burger</td>
+            <td>320</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Peri Peri Burger</td>
+            <td>300</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Pasta</td>
+            <td>Veg Pasta</td>
+            <td>350</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Peri peri pasta</td>
+            <td>380</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Chicken Pasta</td>
+            <td>380</td>
+            <td>Available</td>
+        </tr>
+
+        <tr >
+            <td colspan = 4 ><mark>Weekend offer 10% off on combo meals!!!</mark></td>
+        </tr>
+    </table>
+
+    <section id="menu-items">
+        <h2>Menu items</h2>
+        <input type="text" id="search" placeholder="Search food..">
+        <button onclick="searchFood()">Search</button>
+        <div>
+            <article class="product">
+                <img src="assets/istockphoto-2190287269-612x612.jpg" alt="cheese pizza" width="220">
+                <h3>Cheese Pizza</h3>
+                <p>Tasty <small>(120)</small></p>
+                <p><strong>Rs 249</strong></p>
+                <button onclick="addFood('Cheese Pizza',249)">Add to cart</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/pngtree-burger-with-sauce-fresh-png-image_15280636.webp" alt="Burger" width="220">
+                <h3>Veg Burger</h3>
+                <p>Amazing <small>(150)</small></p>
+                <p><strong>Rs 199</strong></p>
+                <button onclick="addFood('Veg Burger',199)">Add to cart</button>
+            </article>
+            
+                <article class="product">
+                <img src="assets/ai-generated-pasta.jpg" alt="creamy pasta" width="220">
+                <h3>Creamy Pasta</h3>
+                <p>Delicious <small>(150)</small></p>
+                <p><strong>Rs 150</strong></p>
+                <button onclick = "addFood('White sauce Pasta',299)">Add to cart</button>
+            </article>
+        </div>
+
+        <section id="offers">
+                <h2>Today's Special offer</h2>
+                <p>Get <strong>20% off</strong> on your order!</p>
+                <p><mark>Free home delivery on orders above Rs. 499</mark></p>
+                <a href="#specialities">Explore our food menu</a>
+            </section>
+            <hr>
+
+            <aside id="customer-notice">
+                <h2>Customer notice</h2>
+                <p>Delivery services are available from 10 am to 11 pm</p>
+            </aside>
+            <hr>
+            <section id="FAQ">
+                <h2>Frequently asked question</h2>
+                <details>
+                    <summary>Do you provide free delivery ?</summary>
+                    <p>Yes on orders above 499</p>
+                </details>
+                <details>
+                    <summary>What's the last order timing ?</summary>
+                    <p>Last is order taken at 10:50 pm to 11 pm not after 11 pm </p>
+                </details>
+            </section>
+
+        
+
+    </section>
+
+    <h2> Restaurant Information</h2>
+    <p>Delivery Available</p>
+    <span>Delivery Available</span>
+        <span> | </span>
+    <span>Open Everyday</span>
+        <span> | </span>
+        <span>Fresh Food</span>
+
+    <footer id="footer">
+        <p>
+            <a href="#home">Home</a>
+            <a href="#specialities">Menu</a>
+            <a href="#contact">Contact</a>
+        </p>
+
+        <p>
+            2026 BiteBox.All rights reserved.
+        </p>
+        <a href="#header">Back to top</a>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

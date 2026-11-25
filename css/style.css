@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    background-color: rgb(215, 215, 155);
+    padding: 20px;
+    border-bottom: 2px solid rgb(31, 25, 25);
+}
+
+/* a here is anchor tag  <a href.....>*/
+nav a{
+    text-decoration: none;
+    color: rgb(19, 6, 6);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 12px;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* we use # to style id and . for class */
+
+
+.ava-foods{
+    margin-left: 12px;
+}
+
+.ava-foods h3,ul,li{
+    text-align: center;
+    background-color: beige;
+}
+
+
+#hero-home{
+    background-image: url(/assets/banner.png);
+    background-size: cover;
+    height: 430px;
+    padding: 55px 80px;
+}
+
+#hero-home h1{
+    color: rgb(221, 228, 230);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800px;
+    width: 650px;
+    margin-bottom: 50px;
+}
+
+#hero-home h1 span{
+    color: rgb(228, 228, 38);
+}
+
+#hero-home p{
+    color: rgb(188, 176, 176);
+    width: 420px;
+    margin-bottom: 35px;
+}
+
+.hero-buttons a{
+    width: 150px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+#order-btn{
+    width: 150px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 6px;
+}
+
+#menu-btn{
+    color: rgb(11, 11, 11);
+    background-color: beige;
+    border: 2px solid white;
+}
+
+#home h1{
+    text-align: center;
+    background-color: red;
+}
+
+#home h2{
+    text-align: center;
+    background-color: beige;
+}
+
+#home p{
+    text-align: center;
+    padding: 5px;
+    background-color: beige;
+    font-style: italic;
+}
+
+
+#about h2{
+    margin: 10px;
+    text-align: center;
+}
+
+#about p{
+    margin: 10px;
+    text-align: center;
+}
+
+#specialities{
+    background-color: beige;
+    padding: 40px;
+    text-align: center;
+}
+
+#specialities ul,ol{
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+#specialities li{
+    font-size: 17px;
+}
+
+
+#offers{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(222, 222, 87);
+    border: solid 2px;
+}
+
+#customer-notice{
+    background-color: aquamarine;
+    border-left: 5px solid orange;
+}
+
+#customer-notice h2{
+    color: red;
+    margin-bottom: 20px;
+    padding: 25px;
+    margin: 20px;
+}
+
+#customer-notice span{
+    background-color: yellow;
+}
+
+#food{
+    text-align: center;
+    text-decoration: dashed;
+}
+
+#FAQ{
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+#FAQ h2{
+    color: red;
+}
+
+#FAQ details{
+    background-color: white;
+    border: 2px solid rgb(218, 119, 119);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#FAQ summary{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#footer p{
+    margin-bottom: 15px;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+#menu-items div{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-items article{
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(111, 40, 40);
+}
+
+#menu-items article:hover{
+    transform: translateY(-10px);
+}
+
+#about-hero{
+    background-color: bisque;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#story{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#chefs{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#chefs article{
+    display: inline-block;
+    background-color: azure;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(245, 194, 99);
+}
+
+#chefs img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#buisness-hours{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid bisque;
+}
+
+#registration-form, #contact-form{
+    width: 650px;
+    margin:30px;
+    padding: 25px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(137, 64, 137);
+}
+
+form h3{
+    margin-top: 20px;
+}
+
+label{
+    font-weight: 700px;
+}
+input,select,textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="radio"],[type="checkbox"]
+{
+    width: auto;
+    margin-right: 8px;
+}
+
+input[type="submit"],[type="reset"]
+{
+    background-color: red;
+    color: white;
+}
+
+#cart-hero{
+    background-color: rgb(140, 140, 240);
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+#cart-details{
+    background-color: antiquewhite;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+#cart-details table{
+    width: 100%;
+    text-align: center;
+}
+
+#cart-details th{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#cart-details td{
+    padding: 15px;
+    border: 2px solid rgb(245, 228, 196);
+}
+
+#cart-details button{
+    padding: 5px 12px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#cart-here{
+    text-align: center;
+    padding: 30px;
+
+}
+
+#cart-here p{
+    font-weight: bold;
+}
+
+#update p{
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.Order-summary{
+    padding: 10px;
+    margin: auto;
+    background-color: beige;
+}
+
+#order{
+    font-style: italic;
+}
+
+#checkout{
+    border: 5px solid red;
+    border-radius: 10px;
+    color: black;
+}
+#cart-actions{
+    padding: 20px;
+}
+
+#clear-cart{
+    padding: 5px;
+}
+
+.visit{
+    background-color: rgb(148, 216, 241);
+    text-align: center;
+}
+
+.follow_us{
+    gap: 5px;
+    text-align: left;
+    display: flex;
+    
+}
+
+.reference{
+    text-align: center;
+    border: solid 2px;
+    background-color: aqua;
+}
+
+#cust_form{
+    border: solid beige 12px;
+    margin-left: 30px;
+    background-color: beige;
+    margin: 12px;
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 0 20px 25px rgb(177, 177, 155);
+    padding-left: 30px;
+}
+
+#about{
+    text-align: center;
+    background-color: beige;
+}
+
+#footer h3{
+    text-align: center;
+    margin-left: 10px;
+}
+
+@media screen and(max-width: 768px)
+{
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        gap: 12px;
+    }
+    nav{
+        margin: 0;
+        font-size: 15px;
+    }
+    #home-hero{
+        width: 100%;
+        height: auto;
+        min-height: 350px;
+        padding: 45px 20px;
+        background-position: center;
+        background-size: cover;
+    }
+    #home-hero h1{
+        width: 100px;
+        max-width: 100%;
+        font-size: 5px;
+        line-height: 1.3;
+    }
+    #home-hero p{
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .hero-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .hero-buttons a{
+        margin: 5px 0;
+    }
+    #main-content{
+        width: 100%;
+        padding: 10px;
+    }
+
+    #about, #speacialities,#offers,#faq,#opening-hours,#contact{
+        padding: 25px 15px;
+    }
+
+    #main-content h2{
+        font-size: 25px;
+    }
+    #main-content p,li{
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    #specialities img{
+        max-width: 100%;
+        height: auto;
+    }
+    #customer-notice{
+        margin: 15px;
+        padding: 20px;
+    }
+
+    #menu-hero{
+        padding: 45px 20px;
+    }
+    #menu-hero h1{
+        font-size: 30px;
+    }
+    #menu-hero p{
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    #categories>div,#menu-items>div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    #categories article img{
+        max-width: 100%;
+        height: 100px;
+    }
+    #search{
+        width: 70%;
+        max-width: 300px;
+    }
+    #offer{
+        margin: 20px 15px;
+        padding: 30px 15px;
+    }
+    #about-hero{
+        padding: 40px 15px;
+    }
+    #about-hero h1{
+        font-size: 30px;
+    }
+    #story{
+        padding: 25px 15px;
+    }
+    #story article{
+        padding: 20px;
+    }
+    #story img{
+        max-width: 100%;
+        height: auto;
+    }
+    #chef article{
+        width: 250px;
+        max-width: 90;
+        margin: 12px;
+    }
+    #contact hero{
+        padding: 35px 15px;
+    }
+    input,select,textarea{
+        max-width: 100%;
+    }
+    #cart-hero{
+        padding: 30px 15px;
+    }
+    #cart-hero h2{
+        font-size: 27px;
+    }
+    #cart-details{
+        width: 90%;
+        overflow-x: auto;
+        padding: 15px;
+    }
+    #shopping-cart th, #shopping-cart td{
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    #shopping-cart img{
+        max-width:70px;
+        height: auto;
+    }
+    #order-summary{
+        width: 90%;
+        max-width: 450px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    #order-summary p,
+    #order-summary h3{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    #order-summary button{
+        width: 100%;
+    }
+    #cart-action{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+#footer{
+    width: 100%;
+    padding: 250px;
+    text-align: center;
+}
+
+#footer section{
+    width: 100%;
+    padding: 15px 0;
+}
+#footer img{
+    max-width: 100%;
+    height: auto;
+}
+#footer a{
+    display: inline-block;
+    margin: 5px;
+}
+#footer{
+    padding: 20px 15px;
+    text-align: center;
+}
+img,video{
+    max-width: 100%;
+    height: auto;
+}
+iframe{
+    max-width: 100%;
+}
+#google-map iframe{
+    width: 100%;
+    height: 300px;
+}
+}
